@@ -90,7 +90,4 @@ An admin panel is included for managing products, categories, and orders.
 ![Preview](screenshots/14.png)
 ![Preview](screenshots/15.png)
 
-<<<<<<< HEAD
-=======
 
->>>>>>> cd4ea7c4c18c0caccf15ed8075d1363235a8f5c5
