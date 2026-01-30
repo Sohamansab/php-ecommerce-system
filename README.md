@@ -71,23 +71,21 @@ An admin panel is included for managing products, categories, and orders.
 - Bootstrap
 
 ---
-
 ## 📸 Screenshots
 
-![Preview](screenshots/1.png)
-![Preview](screenshots/2.png)
-![Preview](screenshots/3.png)
-![Preview](screenshots/4.png)
-![Preview](screenshots/5.png)
-![Preview](screenshots/6.png)
-![Preview](screenshots/7.png)
-![Preview](screenshots/8.png)
-![Preview](screenshots/9.png)
-![Preview](screenshots/10.png)
-![Preview](screenshots/11.png)
-![Preview](screenshots/12.png)
-![Preview](screenshots/13.png)
-![Preview](screenshots/14.png)
-![Preview](screenshots/15.png)
-
+![Preview](screenshots/1.PNG)
+![Preview](screenshots/2.PNG)
+![Preview](screenshots/3.PNG)
+![Preview](screenshots/4.PNG)
+![Preview](screenshots/5.PNG)
+![Preview](screenshots/6.PNG)
+![Preview](screenshots/7.PNG)
+![Preview](screenshots/8.PNG)
+![Preview](screenshots/9.PNG)
+![Preview](screenshots/10.PNG)
+![Preview](screenshots/11.PNG)
+![Preview](screenshots/12.PNG)
+![Preview](screenshots/13.PNG)
+![Preview](screenshots/14.PNG)
+![Preview](screenshots/15.PNG)
 
