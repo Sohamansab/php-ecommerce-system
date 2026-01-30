@@ -42,12 +42,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         if (!$error) {
-            $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
             $createdBy = $_SESSION['username'];
 
-            $sql = "INSERT INTO tbl_users 
+            $sql = "INSERT INTO tbl_users
                     (username, password, email, phone, designation, created_by, uploaded_file)
-                    VALUES ('$username', '$hashedPassword', '$email', '$phone', '$designation', '$createdBy', '$uploadedFile')";
+                    VALUES ('$username', '$password', '$email', '$phone', '$designation', '$createdBy', '$uploadedFile')";
 
             if (mysqli_query($conn, $sql)) {
     $userId = mysqli_insert_id($conn); 
