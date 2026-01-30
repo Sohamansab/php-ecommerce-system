@@ -54,8 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $showError = "Email already registered";
         } else {
             $creator = $_SESSION['username'] ?? $username;
-$hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-$sql = "INSERT INTO `tbl_users` 
+$sql = "INSERT INTO `tbl_users`
 (`username`, `password`, `email`, `phone`, `designation`, `created_by`)
 VALUES ('$username', '$password', '$email', '$phone', '$designation', '$creator')";
      $result = mysqli_query($conn, $sql);
